@@ -3,7 +3,7 @@
 require_once __DIR__ . '/Model.php';
 
 class Medecin extends Model {
-    protected $table = 'Medecin';
+    protected $table = 'Medecins';
     protected $primaryKey = 'id_medecin';
 
     public function create($data) {
