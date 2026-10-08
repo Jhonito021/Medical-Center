@@ -1,0 +1,15 @@
+{
+    "name": "medical/backend-api",
+    "description": "API REST pour Cabinet Medical",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "firebase/php-jwt": "^6.0",
+        "vlucas/phpdotenv":"^5.5"
+    },
+    "autoload": {
+        "pst-4": {
+            "App\\": "src"
+        }
+    }
+}
